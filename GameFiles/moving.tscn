@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwrr8b7sps0ge"]
+
+[ext_resource type="Texture2D" uid="uid://20ock2fsdg0s" path="res://icon.svg" id="1_maln3"]
+[ext_resource type="Script" path="res://moving.cs" id="1_y7v0w"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_y7v0w")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(2, -4)
+texture = ExtResource("1_maln3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_left = 0
+limit_top = 0
+limit_right = 3000
+limit_bottom = 1250
+limit_smoothed = true

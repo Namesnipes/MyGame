@@ -1,17 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://dgfaw0uduf10o"]
+[gd_scene load_steps=4 format=3 uid="uid://dgfaw0uduf10o"]
 
-[ext_resource type="Texture2D" uid="uid://20ock2fsdg0s" path="res://icon.svg" id="1_b8exx"]
-[ext_resource type="Script" path="res://testing.cs" id="2_cl7uy"]
 [ext_resource type="Texture2D" uid="uid://lxaa136awim4" path="res://cat.png" id="3_t3fii"]
 [ext_resource type="Script" path="res://cat.cs" id="4_ftegk"]
 [ext_resource type="Script" path="res://window.cs" id="5_sx63f"]
 
 [node name="Node2D" type="Node2D"]
-
-[node name="player" type="Sprite2D" parent="."]
-position = Vector2(467, 251)
-texture = ExtResource("1_b8exx")
-script = ExtResource("2_cl7uy")
 
 [node name="cat" type="Sprite2D" parent="."]
 position = Vector2(833, 429)
